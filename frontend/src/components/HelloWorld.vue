@@ -94,7 +94,6 @@ export default {
     };
   },
   created() {
-    debugger;
     axios.get('http://localhost:8000/api')
       .then((res) => {
         console.log(res);
@@ -102,7 +101,6 @@ export default {
       })
       .catch((err) => {
         console.log(err);
-        debugger;
       });
   },
 };
